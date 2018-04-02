@@ -1,0 +1,144 @@
+.box.none_background{
+    background: transparent;
+    box-shadow: none;
+}
+img.no_images_150x150{
+    max-width: 100px;
+    min-width: 100px;
+}
+td.action_tablel{
+    width:75px;
+}
+td.action_tablel a{
+    margin:0 5px;
+}
+td.action_tablel a span{
+    width:100%;
+    display: inline-block;
+    padding:5px;
+}
+td.action_tablel a span i{
+    margin-left:5px;
+}
+#__temp_file,
+#__temp_properties{
+    display: none;
+    visibility: hidden;
+}
+.relative{
+    position: relative;
+}
+button.btn_file_array{
+    position: absolute;
+    right:0;
+    z-index: 100;
+    top:0;
+}
+table tr .item_index,
+table tr .input_check{
+    width: 60px;
+    text-align: center;
+}
+table tr .item_check{
+    width:100px;
+    text-align: center;
+}
+.box_button_table{
+    display: inline-block;
+    float:right;
+}
+
+#tab_element.tab_editor #add_tab{
+    border-color:transparent!important;
+    float:right;    
+    background-color: #2b579a!important;
+    color: white;
+}
+label.radio-tab{
+    margin-left: 5px;
+}
+.tab_ckeditor_f_right {
+    /* text-align: right; */
+}
+input[type="radio"].checked_radio_tab{
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    left:0;
+    top:2px;
+    margin-left:5px;
+    margin-right:2px;
+}
+button[type="button"].image_toggle_hover{
+    position: relative;
+    overflow: initial;
+}
+button[type="button"].image_toggle_hover .box_images_hover{
+    position: absolute;
+    z-index: 9999;
+    max-width: 200px;
+    left: calc( 100% + 15px);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:5px;
+    box-shadow: 5px 5px 5px -4px #888888;
+    background: white;
+}
+button[type="button"].image_toggle_hover .box_images_hover::before{
+    position: absolute;
+    content:'';
+    /* left:0; */
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #007bff;
+    position: absolute;
+    right: 100%;
+    top:50%;
+    transform: translateY(-50%);
+}
+button[type="button"].image_toggle_hover .box_images_hover > img{
+    border:1px solid #ddd;  
+    border-radius:5px;
+    max-width: 200px;
+    max-height: 200px;
+    padding:3px;
+}
+.icon_slide_hidden{
+    float:right;
+}
+.icon_slide_hidden i{
+    transition: all 0.5;
+    transform: all 2s;
+    transform:rotate(0deg);
+}
+.icon_slide_hidden.rotate i{
+    transform:rotate(270deg);
+}
+.group_slide{
+    display: none;
+}
+.checkbox_m_r10 title-radio{
+    margin-right: 10px;
+}
+#form_properties{
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+#form_file .form-group,
+#form_properties .form-group{
+    margin-bottom:5px;
+}
+
+
+button.btn_mr_input{
+    position: absolute;
+    right:15px;
+    top:0;
+}
+
+.btn_choose{
+
+}

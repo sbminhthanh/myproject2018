@@ -1,0 +1,20 @@
+.news-theme-grand-news{
+
+}
+/* Home */
+	.news-theme-grand-news >  .news-home{
+
+	}
+	/* Banner */
+	.news-theme-grand-news .news-home > .news-banner{
+		
+	}
+	.news-theme-grand-news .news-home > .news-banner > .row > .one_half.div_wrapper{
+		background-size: cover;
+	    background-position: center center;
+	    width: calc(50% - 5px);
+	    height: 600px;
+	    position: relative;
+	    margin: 0;
+	}
+
